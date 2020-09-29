@@ -4,32 +4,32 @@
     h1 {
         font-color:rgb(81, 255, 0);
         border-bottom:1px solid rgb(6, 247, 207);
-        font-size:120px;
+        font-size:80px;
         text-align: center;
         margin:0;
-        padding:30px;   
+        padding:10px;   
     }
     h2 {
-        font-size:50px;
+        font-size:30px;
     }
     ul {
         color:rgb(255, 98, 195);
-        font-size: 35px;
+        font-size: 20px;
         border-right:1px solid  rgb(6, 247, 207);
-        width:190px;
+        width:110px;
         margin:0; 
-        padding:30px;
-        padding-left:60px;
+        padding:20px;
+        padding-left:30px;
     }
     #grid{
         display:grid;
-        grid-template-columns: 330px 2fr;
+        grid-template-columns: 180px 2fr;
     }
     .cdwh{
-        font-size:25px;
+        font-size:15px;
     }
 
-    @media(max-width:800px){
+    @media(max-width:700px){
     #grid{
         display: block;
     }
