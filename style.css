@@ -1,0 +1,30 @@
+    body {
+    margin:0;
+    }
+    h1 {
+        font-color:rgb(81, 255, 0);
+        border-bottom:1px solid rgb(6, 247, 207);
+        font-size:150px;
+        text-align: center;
+        margin:0;
+        padding:50px;   
+    }
+    h2 {
+        font-size:60px;
+    }
+    ul {
+        color:rgb(255, 98, 195);
+        font-size:45px;
+        border-right:1px solid  rgb(6, 247, 207);
+        width:270px;
+        margin:0; 
+        padding:30px;
+        padding-left:60px;
+    }
+    #grid{
+        display:grid;
+        grid-template-columns: 410px 2fr;
+    }
+    .cdwh{
+        font-size:25px;
+    }
