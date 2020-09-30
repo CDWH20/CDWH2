@@ -2,8 +2,8 @@
     margin:0;
     }
     h1 {
-        font-color:rgb(81, 255, 0);
-        border-bottom:1px solid rgb(6, 247, 207);
+        font-color:rgb(164, 26, 206);
+        border-bottom:1px solid rgb(255, 145, 0);
         font-size:40px;
         text-align: center;
         margin:0;
@@ -15,8 +15,7 @@
     ul {
         color:rgb(255, 98, 195);
         font-size: 20px;
-        border-right:1px solid  rgb(6, 247, 207);
-        width:110px;
+        border-right:1px solid  rgb(255, 145, 0);
         margin:0; 
         padding-top:20px;
         padding-left:30px;
@@ -29,16 +28,22 @@
     .cdwh{
         font-size:15px;
     }
-    
+    a:link {
+        color: rgb(184, 20, 121);
+    }
+    a:visited {      
+        color: rgb(29, 187, 161);
+    }
 
     @media(max-width:700px){
     #grid{
         display: block;
         margin:0;
     }
-
     ul{
         border-right:none;
 
     }
     }
+
+ 
