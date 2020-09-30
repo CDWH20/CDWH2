@@ -3,7 +3,7 @@
     }
     h1 {
         font-color:rgb(164, 26, 206);
-        border-bottom:1px solid rgb(255, 145, 0);
+        border-bottom:3px solid rgb(232, 255, 24);
         font-size:40px;
         text-align: center;
         margin:0;
@@ -15,7 +15,7 @@
     ul {
         color:rgb(255, 98, 195);
         font-size: 20px;
-        border-right:1px solid  rgb(255, 145, 0);
+        border-right:3px solid  rgb(255, 145, 0);
         margin:0; 
         padding-top:20px;
         padding-left:30px;
@@ -23,7 +23,7 @@
     }
     #grid{
         display:grid;
-        grid-template-columns: 180px 2fr;
+        grid-template-columns: 160px 2fr;
     }
     .cdwh{
         font-size:15px;
